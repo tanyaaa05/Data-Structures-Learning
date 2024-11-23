@@ -1,0 +1,13 @@
+The memset function in C++ is a standard library function used to fill 
+a block of memory with a particular value. It's commonly used for  
+initializing arrays or buffers.
+
+
+Syntax:
+void* memset(void* ptr, int value, size_t num);
+
+(a). ptr: A pointer to the block of memory to fill.
+(b). value: The value to be set. This value is passed as an int, but the function fills the 
+block of memory using the unsigned char conversion of this value.
+(c). num: The number of bytes to be set to the value.
+
